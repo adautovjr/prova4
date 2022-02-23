@@ -1,0 +1,19 @@
+h1.nome {
+  margin-bottom: 0;
+}
+
+h2.idade {
+  font-size: 1.8rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(auto, 150px));
+  grid-gap: 15px;
+}
+
+.grid-container > div {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
